@@ -1,12 +1,13 @@
 import './App.css'
+import Header from "./sections/Header";
 
 function App() { 
 
   return (
     <>
-      <h2>Envobyte Project</h2>
+      <Header />
     </>
-  )
+  );
 }
 
 export default App
