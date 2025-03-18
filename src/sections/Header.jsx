@@ -8,7 +8,7 @@ const Header = () => {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
-    <header className="bg-[#03135B] shadow-md fixed w-full z-10">
+    <header className="bg-[#03135B] shadow-md w-full z-10 overflow-hidden">
       <div className="container mx-auto flex items-center justify-between p-4">
         {/* Logo */}
         <a href="#" className="text-2xl font-bold text-blue-600">
@@ -52,7 +52,7 @@ const Header = () => {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <nav className="md:hidden bg-white shadow-lg absolute top-16 left-0 w-full p-4 flex flex-col space-y-4">
+        <nav className="md:hidden bg-white shadow-lg absolute top-16 left-0 w-full p-4 flex flex-col space-y-4 overflow-hidden">
           <a href="#" className="text-gray-700 hover:text-blue-600">
             Home
           </a>
