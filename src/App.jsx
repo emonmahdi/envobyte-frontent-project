@@ -1,6 +1,7 @@
 import './App.css'
 import Header from "./sections/Header";
 import HeroArea from "./sections/HeroArea";
+import MoreDetails from "./sections/MoreDetails";
 import Services from "./sections/Services";
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <HeroArea />
       <Services />
+      <MoreDetails />
     </>
   );
 }
