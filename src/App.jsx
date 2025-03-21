@@ -1,6 +1,7 @@
 import "./App.css";
 import ContactSection from "./sections/Contact";
 import FAQ from "./sections/Faq";
+import Footer from "./sections/Footer";
 import Header from "./sections/Header";
 import HeroArea from "./sections/HeroArea";
 import MoreDetails from "./sections/MoreDetails";
@@ -23,6 +24,7 @@ function App() {
       <Team />
       <FAQ />
       <ContactSection />
+      <Footer />
     </>
   );
 }
