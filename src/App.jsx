@@ -1,4 +1,5 @@
 import "./App.css";
+import ContactSection from "./sections/Contact";
 import FAQ from "./sections/Faq";
 import Header from "./sections/Header";
 import HeroArea from "./sections/HeroArea";
@@ -21,6 +22,7 @@ function App() {
       <Review />
       <Team />
       <FAQ />
+      <ContactSection />
     </>
   );
 }
