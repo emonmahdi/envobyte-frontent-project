@@ -73,7 +73,7 @@ const Review = () => {
             Our Proud Clients
           </h2>
         </div>
-        <div className="w-[984px] mx-auto h-[686px]">
+        <div className="w-[984px] mx-auto">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {reviews.map((client) => (
               <div

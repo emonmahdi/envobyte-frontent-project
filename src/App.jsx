@@ -1,8 +1,9 @@
-import './App.css'
+import "./App.css";
+import FAQ from "./sections/Faq";
 import Header from "./sections/Header";
 import HeroArea from "./sections/HeroArea";
 import MoreDetails from "./sections/MoreDetails";
-import Portfolio from './sections/Portfolio';
+import Portfolio from "./sections/Portfolio";
 import Review from "./sections/Review";
 import Services from "./sections/Services";
 import Team from "./sections/Team";
@@ -19,8 +20,9 @@ function App() {
       <Work />
       <Review />
       <Team />
+      <FAQ />
     </>
   );
 }
 
-export default App
+export default App;
