@@ -1,1 +1,15 @@
 @import "tailwindcss";
+
+
+.work-section {
+    position: relative;
+    background: linear-gradient(rgba(0, 28, 108, 0.6), rgba(0, 28, 108, 0.6)), 
+                url('./assets/bg-e.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: aliceblue;
+    padding: 50px 0;  
+    /* height: 1042px; */
+    width: 100%;
+}
